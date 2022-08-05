@@ -18,3 +18,6 @@ const merge = (leftArray, rightArray) => {
 
   return mergedCollection.concat(leftArray, rightArray);
 }
+
+console.log(mergeSort([5, 0, 10, -3, -1, 4, 12, -5])); // [-5, -3, -1, 0, 4, 5, 10, 12];
+console.log(mergeSort([])); // []
